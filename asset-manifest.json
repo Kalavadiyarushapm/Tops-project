@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Tops-project/static/css/main.33b6ec5d.css",
+    "main.js": "/Tops-project/static/js/main.caf69c9f.js",
+    "static/js/453.4ad245c9.chunk.js": "/Tops-project/static/js/453.4ad245c9.chunk.js",
+    "index.html": "/Tops-project/index.html",
+    "main.33b6ec5d.css.map": "/Tops-project/static/css/main.33b6ec5d.css.map",
+    "main.caf69c9f.js.map": "/Tops-project/static/js/main.caf69c9f.js.map",
+    "453.4ad245c9.chunk.js.map": "/Tops-project/static/js/453.4ad245c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33b6ec5d.css",
+    "static/js/main.caf69c9f.js"
+  ]
+}
