@@ -1,0 +1,25 @@
+.sidebar {
+  background: linear-gradient(180deg, #5fa96b, #2e7d42);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .nav-link {
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.logout-btn {
+  background: linear-gradient(135deg, #ff7a4a, #ff3d3d);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 12px;
+  padding: 12px;
+}

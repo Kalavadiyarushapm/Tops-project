@@ -1,0 +1,627 @@
+{
+  "card-product": [
+    {
+      "id": 1,
+      "title": "Pro Wireless Noise-Canceling Headphones",
+      "price": 299.99,
+      "company": "SoundMax",
+      "rating": 4.3,
+      "image": "https://i.ebayimg.com/thumbs/images/g/tKIAAOSw0uRnH0eJ/s-l225.jpg",
+        "image": "https://placehold.co/300x300?text=Headphones",
+        "description": "Noise-canceling headphones with 30-hour battery.",
+      "longDescription": "Premium wireless headphones featuring advanced active noise cancellation, immersive sound quality, and long-lasting comfort for travel and daily use.",
+      "productDetails": {
+        "brand": "SoundMax",
+        "model": "SM-NC700",
+        "category": "Electronics",
+        "warranty": "1 Year Warranty",
+        "countryOfOrigin": "India"
+      },
+      "specifications": {
+        "connectivity": "Bluetooth 5.2",
+        "batteryLife": "30 Hours",
+        "chargingTime": "2 Hours",
+        "weight": "250g",
+        "features": [
+          "ANC",
+          "Fast Charging",
+          "Built-in Mic"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Ultra-Slim 4K UHD Smart TV - 55 Inch",
+      "price": 649,
+      "company": "VisionPlus",
+      "rating": 4.3,
+      "image": "https://placehold.co/600x400?text=Product+Image",
+        "image": "https://placehold.co/300x300?text=Smart+TV",
+        "description": "4K HDR smart TV with streaming apps.",
+      "longDescription": "Experience cinematic visuals with this 55-inch 4K UHD Smart TV. Featuring HDR10 support and built-in streaming apps for endless entertainment.",
+      "productDetails": {
+        "brand": "VisionPlus",
+        "model": "VP-55UHD",
+        "category": "Electronics",
+        "warranty": "2 Years Panel Warranty",
+        "countryOfOrigin": "South Korea"
+      },
+      "specifications": {
+        "screenSize": "55 Inches",
+        "resolution": "3840 x 2160 (4K)",
+        "refreshRate": "60Hz",
+        "os": "Vision OS",
+        "ports": [
+          "3x HDMI",
+          "2x USB",
+          "Ethernet"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mechanical Gaming Keyboard RGB",
+      "price": 89.5,
+      "company": "GamePro",
+      "rating": 4.3,
+      "image": "https://png.pngtree.com/png-clipart/20230823/original/pngtree-rgb-mechanical-keyboard-with-wrist-rest-isolated-on-transparent-background-for-png-image_10251645.png",
+        "image": "https://placehold.co/300x300?text=Keyboard",
+        "description": "RGB mechanical keyboard.",
+      "longDescription": "Dominate the game with the GamePro RGB Mechanical Keyboard. Tactile blue switches and customizable lighting make it perfect for gamers.",
+      "productDetails": {
+        "brand": "GamePro",
+        "model": "GP-RGB100",
+        "category": "Computers",
+        "warranty": "1 Year Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "switchType": "Mechanical Blue",
+        "connection": "Wired USB-C",
+        "backlight": "Full RGB",
+        "keys": "104 Keys",
+        "features": [
+          "Anti-Ghosting",
+          "Macro Support"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Smartphone X Pro - 256GB",
+      "price": 999,
+      "company": "XTech",
+      "rating": 4.3,
+      "image": "https://placehold.co/600x400?text=Product+Image",
+        "image": "https://placehold.co/300x300?text=Smartphone",
+        "description": "5G smartphone with triple camera.",
+      "longDescription": "The XTech Pro defines power and elegance with a Snapdragon processor, 120Hz AMOLED display, and a pro-grade triple camera system.",
+      "productDetails": {
+        "brand": "XTech",
+        "model": "XT-PRO-256",
+        "category": "Mobile Phones",
+        "warranty": "1 Year Manufacturer Warranty",
+        "countryOfOrigin": "Vietnam"
+      },
+      "specifications": {
+        "display": "6.7 inch AMOLED",
+        "storage": "256GB",
+        "ram": "12GB",
+        "battery": "5000mAh",
+        "network": "5G"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Portable Bluetooth Speaker",
+      "price": 59.99,
+      "company": "BoomBox",
+      "rating": 4.3,
+      "image": "https://www.shutterstock.com/image-vector/bluetooth-speaker-icon-white-background-260nw-1559040992.jpg",
+        "image": "https://placehold.co/300x300?text=Speaker",
+        "description": "Waterproof speaker with deep bass.",
+      "longDescription": "Bring the party anywhere with the BoomBox Portable Speaker. IPX7 waterproof rating ensures it survives pool parties and outdoor adventures.",
+      "productDetails": {
+        "brand": "BoomBox",
+        "model": "BB-Mini",
+        "category": "Audio",
+        "warranty": "6 Months Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "outputPower": "20W",
+        "batteryLife": "12 Hours",
+        "waterproof": "IPX7",
+        "connectivity": "Bluetooth 5.0",
+        "weight": "500g"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Men's Leather Jacket",
+      "price": 120,
+      "company": "UrbanWear",
+      "rating": 4.3,
+      "image": "https://www.shutterstock.com/image-photo/mens-leather-jacket-isolated-on-260nw-207610105.jpg",
+        "image": "https://placehold.co/300x300?text=Leather+Jacket",
+        "description": "Genuine leather jacket.",
+      "longDescription": "Crafted from 100% genuine leather, this jacket offers a rugged look with a modern fit. Features durable zippers and a comfortable lining.",
+      "productDetails": {
+        "brand": "UrbanWear",
+        "model": "UW-LTHR-01",
+        "category": "Fashion",
+        "warranty": "No Warranty",
+        "countryOfOrigin": "India"
+      },
+      "specifications": {
+        "material": "Genuine Lambskin Leather",
+        "fit": "Regular Fit",
+        "closure": "Zip",
+        "lining": "Polyester",
+        "care": "Dry Clean Only"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Slim Fit Denim Jeans",
+      "price": 45,
+      "company": "DenimCo",
+      "rating": 4.3,
+      "image": "https://cdn.shopify.com/s/files/1/0584/8694/7938/files/slim_fit_desktop_9a7c4898-77a3-4996-8864-842e4e3e5a6a_540x.jpg?v=1732016470",
+        "image": "https://placehold.co/300x300?text=Denim+Jeans",
+        "description": "Stretch slim fit jeans.",
+      "longDescription": "Classic blue jeans with a modern slim cut. Made with a hint of stretch for all-day comfort and mobility.",
+      "productDetails": {
+        "brand": "DenimCo",
+        "model": "DC-SLIM-32",
+        "category": "Fashion",
+        "warranty": "30 Day Return",
+        "countryOfOrigin": "Bangladesh"
+      },
+      "specifications": {
+        "material": "98% Cotton, 2% Elastane",
+        "fit": "Slim",
+        "waist": "Various Sizes",
+        "wash": "Medium Blue",
+        "pockets": "5-Pocket Style"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Men's Running Sneakers",
+      "price": 85,
+      "company": "RunFast",
+      "rating": 4.3,
+      "image": "https://www.reebok.com/cdn/shop/files/100205978_SLC_eCom-tif_300x300.jpg?v=1729612811",
+        "image": "https://placehold.co/300x300?text=Running+Sneakers",
+        "description": "Lightweight running shoes.",
+      "longDescription": "Engineered for speed, these sneakers feature a breathable mesh upper and responsive cushioning to keep you moving comfortably.",
+      "productDetails": {
+        "brand": "RunFast",
+        "model": "RF-Sprint",
+        "category": "Footwear",
+        "warranty": "3 Months Warranty",
+        "countryOfOrigin": "Vietnam"
+      },
+      "specifications": {
+        "upperMaterial": "Engineered Mesh",
+        "sole": "EVA Foam",
+        "weight": "220g (per shoe)",
+        "closure": "Lace-up",
+        "terrain": "Road"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Cotton Crew Neck T-Shirt Pack",
+      "price": 25,
+      "company": "BasicsLife",
+      "rating": 4.3,
+      "image": "https://image.harrods.com/paul-smith-modal-blend-lounge-t-shirt-pack-of-3_21380568_46985190_300.jpg",
+        "image": "https://placehold.co/300x300?text=T-Shirt+Pack",
+        "description": "Pack of premium cotton t-shirts.",
+      "longDescription": "A pack of 3 essential crew neck tees. Made from soft, combed cotton that retains its shape wash after wash.",
+      "productDetails": {
+        "brand": "BasicsLife",
+        "model": "BL-Crew-3pk",
+        "category": "Fashion",
+        "warranty": "No Warranty",
+        "countryOfOrigin": "India"
+      },
+      "specifications": {
+        "material": "100% Combed Cotton",
+        "gsm": "180 GSM",
+        "neck": "Crew Neck",
+        "sleeve": "Half Sleeve",
+        "packSize": "3 Units"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Women's Summer Floral Dress",
+      "price": 55,
+      "company": "StyleBloom",
+      "rating": 4.3,
+      "image": "https://placehold.co/600x400?text=Product+Image",
+        "image": "https://placehold.co/300x300?text=Floral+Dress",
+        "description": "Light floral summer dress.",
+      "longDescription": "Breezy and beautiful, this floral midi dress is perfect for summer days. Features a cinched waist and flowy skirt.",
+      "productDetails": {
+        "brand": "StyleBloom",
+        "model": "SB-Floral-Midi",
+        "category": "Fashion",
+        "warranty": "No Warranty",
+        "countryOfOrigin": "India"
+      },
+      "specifications": {
+        "material": "Rayon Blend",
+        "length": "Midi",
+        "pattern": "Floral Print",
+        "sleeve": "Sleeveless",
+        "care": "Machine Wash Cold"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Leather Crossbody Bag",
+      "price": 95,
+      "company": "LuxCarry",
+      "rating": 4.3,
+      "image": "https://www.shutterstock.com/image-photo/elegant-brown-leather-crossbody-bag-260nw-2517472995.jpg",
+        "image": "https://placehold.co/300x300?text=Crossbody+Bag",
+        "description": "Elegant leather bag.",
+      "longDescription": "A chic crossbody bag for daily essentials. Features gold-tone hardware and an adjustable strap for versatile styling.",
+      "productDetails": {
+        "brand": "LuxCarry",
+        "model": "LC-Classic",
+        "category": "Accessories",
+        "warranty": "1 Year Warranty",
+        "countryOfOrigin": "Italy"
+      },
+      "specifications": {
+        "material": "Full Grain Leather",
+        "dimensions": "8 x 6 x 2 inches",
+        "strap": "Adjustable",
+        "closure": "Magnetic Snap",
+        "pockets": "Interior Zip Pocket"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Women's Ankle Boots",
+      "price": 79.99,
+      "company": "FootStyle",
+      "rating": 4.3,
+      "image": "https://placehold.co/600x400?text=Product+Image",
+        "image": "https://placehold.co/300x300?text=Ankle+Boots",
+        "description": "Stylish ankle boots.",
+      "longDescription": "Step out in style with these versatile ankle boots. Features a comfortable block heel and side zipper for easy on/off.",
+      "productDetails": {
+        "brand": "FootStyle",
+        "model": "FS-Boot-09",
+        "category": "Footwear",
+        "warranty": "3 Months Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "material": "Faux Suede",
+        "heelHeight": "2.5 Inches",
+        "sole": "Rubber Non-Slip",
+        "closure": "Side Zip",
+        "toeShape": "Almond"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Automatic Coffee Maker",
+      "price": 49.99,
+      "company": "BrewMaster",
+      "rating": 4.3,
+      "image": "https://media.istockphoto.com/id/1351632376/photo/espresso-automatic-coffee-machine-with-cup.jpg?s=612x612&w=0&k=20&c=5w2_Z65_v1676_s9662862_z0_a3_f183607868957",
+        "image": "https://placehold.co/300x300?text=Coffee+Maker",
+        "description": "Programmable coffee maker.",
+      "longDescription": "Wake up to fresh coffee with the BrewMaster. Features a programmable timer, auto-pause, and a keep-warm plate.",
+      "productDetails": {
+        "brand": "BrewMaster",
+        "model": "BM-Auto-12",
+        "category": "Home Appliances",
+        "warranty": "2 Years Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "capacity": "12 Cups",
+        "power": "900 Watts",
+        "filter": "Reusable Mesh",
+        "carafe": "Glass",
+        "features": [
+          "Timer",
+          "Auto Shut-off"
+        ]
+      }
+    },
+    
+    {
+      "id": 16,
+      "title": "Memory Foam Pillow Set",
+      "price": 39.99,
+      "company": "SleepWell",
+      "rating": 4.3,
+      "image": "https://media.kohlsimg.com/is/image/kohls/6968162_ALT?wid=240&hei=240&op_sharpen=1",
+        "image": "https://placehold.co/300x300?text=Foam+Pillow",
+        "description": "Ergonomic pillow set.",
+      "longDescription": "Experience superior neck support with these memory foam pillows. Designed to contour to your shape for a restful night's sleep.",
+      "productDetails": {
+        "brand": "SleepWell",
+        "model": "SW-Mem-Std",
+        "category": "Home",
+        "warranty": "1 Year Warranty",
+        "countryOfOrigin": "India"
+      },
+      "specifications": {
+        "material": "High-Density Memory Foam",
+        "cover": "Breathable Cotton (Removable)",
+        "firmness": "Medium",
+        "size": "Standard",
+        "quantity": "Set of 2"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Ceramic Plant Pot Set",
+      "price": 29.99,
+      "company": "GreenHome",
+      "rating": 4.3,
+      "image": "https://i.etsystatic.com/22262130/r/il/f9770e/2367501359/il_300x300.2367501359_o21o.jpg",
+        "image": "https://placehold.co/300x300?text=Plant+Pot",
+        "description": "Minimal ceramic pots.",
+      "longDescription": "Modern minimalist pots perfect for succulents and small house plants. Includes drainage holes and bamboo saucers.",
+      "productDetails": {
+        "brand": "GreenHome",
+        "model": "GH-Pots-3",
+        "category": "Home Decor",
+        "warranty": "Arrival Guarantee",
+        "countryOfOrigin": "Vietnam"
+      },
+      "specifications": {
+        "material": "Ceramic",
+        "colors": "White/Grey/Black",
+        "drainage": "Yes",
+        "extras": "Bamboo Trays",
+        "quantity": "Set of 3"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Non-Slip Yoga Mat",
+      "price": 22,
+      "company": "FitFlex",
+      "rating": 4.3,
+      "image": "https://rukminim1.flixcart.com/image/300/300/xif0q/yoga-mat/g/n/6/non-slip-yoga-mat-perfect-grip-for-all-levels-thickness-4mm-4-original-imagha8zgzg7ggf7.jpeg?q=90",
+        "image": "https://placehold.co/300x300?text=Yoga+Mat",
+        "description": "Extra thick yoga mat.",
+      "longDescription": "Achieve perfect balance with this non-slip yoga mat. Extra thickness provides cushioning for joints during difficult poses.",
+      "productDetails": {
+        "brand": "FitFlex",
+        "model": "FF-Mat-Pro",
+        "category": "Fitness",
+        "warranty": "6 Months Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "material": "Eco-Friendly TPE",
+        "thickness": "6mm",
+        "dimensions": "72 x 24 inches",
+        "texture": "Dual-sided Non-slip",
+        "accessories": "Carry Strap Included"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Adjustable Dumbbell Set",
+      "price": 150,
+      "company": "PowerLift",
+      "rating": 4.3,
+      "image": "https://www.verywellfit.com/thmb/_g5462546_t653245_y324234/300x300/filters:no_upscale():max_bytes(150000):strip_icc()/BCBIGAdjustableDumbbells-0f6e2c6294224218b846624562651624.jpg",
+        "image": "https://placehold.co/300x300?text=Dumbbell+Set",
+        "description": "Adjustable weight dumbbells.",
+      "longDescription": "Save space with this adjustable dumbbell set. Change weights from 5lbs to 52.5lbs with a simple dial turn.",
+      "productDetails": {
+        "brand": "PowerLift",
+        "model": "PL-Select-50",
+        "category": "Fitness",
+        "warranty": "2 Years Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "weightRange": "5 - 52.5 lbs",
+        "increments": "2.5 lbs",
+        "material": "Steel Plates / Nylon Base",
+        "mechanism": "Dial System",
+        "quantity": "Single Dumbbell"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Stainless Steel Water Bottle",
+      "price": 180,
+      "company": "HydroPure",
+      "rating": 4.3,
+      "image": "https://placehold.co/600x400?text=Product+Image",
+        "image": "https://placehold.co/300x300?text=Water+Bottle",
+        "description": "Insulated steel bottle.",
+      "longDescription": "Keep your drinks ice cold for 24 hours or piping hot for 12. Durable stainless steel construction resists dents and drops.",
+      "productDetails": {
+        "brand": "HydroPure",
+        "model": "HP-32oz",
+        "category": "Kitchen",
+        "warranty": "Lifetime Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "capacity": "32 oz",
+        "material": "18/8 Stainless Steel",
+        "insulation": "Double Wall Vacuum",
+        "lidType": "Spout Lid",
+        "bpaFree": "Yes"
+      }
+    }
+  ],
+  "card-highlight": [
+    {
+      "id": 1,
+      "title": "Tablet Device",
+      "company": "TabTech",
+      "price": 18999,
+      "rating": 4.4,
+      "image": "https://placehold.co/600x400?text=Product+Image",
+        "image": "https://placehold.co/300x300?text=Tablet",
+        "description": "HD tablet for productivity.",
+      "longDescription": "A versatile tablet for work and play. Features a vibrant 10-inch display and quad-core processor for smooth multitasking.",
+      "productDetails": {
+        "brand": "TabTech",
+        "model": "TT-10HD",
+        "category": "Electronics",
+        "warranty": "1 Year Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "screenSize": "10.1 Inch HD",
+        "storage": "64GB",
+        "ram": "4GB",
+        "battery": "6000mAh",
+        "os": "Android 13"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Smartphone",
+      "company": "SmartX",
+      "price": 29999,
+      "rating": 4.6,
+      "image": "https://www.godigit.com/content/dam/godigit/directportal/en/mobile-insurance/best-amoled-display-phones-in-india.jpg",
+        "image": "https://placehold.co/300x300?text=Smartphone",
+        "description": "5G AMOLED smartphone.",
+      "longDescription": "Flagship performance at a mid-range price. Enjoy 5G speeds and a stunning AMOLED screen for media consumption.",
+      "productDetails": {
+        "brand": "SmartX",
+        "model": "SX-5G-Plus",
+        "category": "Mobile Phones",
+        "warranty": "1 Year Warranty",
+        "countryOfOrigin": "India"
+      },
+      "specifications": {
+        "display": "6.5 Inch AMOLED",
+        "processor": "Octa-Core 2.4GHz",
+        "camera": "64MP Main",
+        "battery": "4500mAh",
+        "charging": "33W Fast Charge"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Power Bank",
+      "company": "ChargePro",
+      "price": 1999,
+      "rating": 4.3,
+      "image": "https://www.shutterstock.com/image-photo/portable-power-bank-sleek-design-260nw-2276476849.jpg",
+        "image": "https://placehold.co/300x300?text=Power+Bank",
+        "description": "Fast charging power bank.",
+      "longDescription": "High-capacity portable charger compatible with all USB devices. Slim design fits easily in pockets or bags.",
+      "productDetails": {
+        "brand": "ChargePro",
+        "model": "CP-20k",
+        "category": "Accessories",
+        "warranty": "1 Year Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "capacity": "20,000mAh",
+        "ports": "2x USB-A, 1x USB-C",
+        "output": "18W Fast Charge",
+        "weight": "350g",
+        "features": [
+          "Overcharge Protection"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Keyboard & Mouse",
+      "company": "KeyMaster",
+      "price": 2499,
+      "rating": 4.2,
+      "image": "https://www.parrot.co.za/assets/products/ic0003/thumb/ic0003.jpg",
+        "image": "https://placehold.co/300x300?text=Keyboard+Mouse",
+        "description": "Wireless keyboard mouse combo.",
+      "longDescription": "Declutter your desk with this wireless combo. Quiet keys and an ergonomic mouse ensure all-day comfort.",
+      "productDetails": {
+        "brand": "KeyMaster",
+        "model": "KM-Wireless-Set",
+        "category": "Computers",
+        "warranty": "2 Years Warranty",
+        "countryOfOrigin": "China"
+      },
+      "specifications": {
+        "connectivity": "2.4GHz Wireless USB",
+        "keyboardType": "Membrane",
+        "mouseDpi": "1600 DPI",
+        "batteryRequired": "AA / AAA",
+        "compatibility": "Windows/Mac"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Digital Camera",
+      "company": "PhotoSnap",
+      "price": 45999,
+      "rating": 4.5,
+      "image": "https://www.kodak.com/en/consumer/products/cameras/digital/wpz2/wpz2-product-image.jpg",
+        "image": "https://placehold.co/300x300?text=Camera",
+        "description": "4K digital camera.",
+      "longDescription": "Capture life's moments in stunning 4K. Ideal for vlogging and photography with a flip-out screen and external mic input.",
+      "productDetails": {
+        "brand": "PhotoSnap",
+        "model": "PS-4K-Vlog",
+        "category": "Cameras",
+        "warranty": "2 Years Warranty",
+        "countryOfOrigin": "Japan"
+      },
+      "specifications": {
+        "sensor": "24MP APS-C",
+        "videoResolution": "4K at 30fps",
+        "zoom": "18-55mm Kit Lens",
+        "isoRange": "100-25600",
+        "connectivity": "Wi-Fi / NFC"
+      }
+    },
+    {
+      "id": 6,
+      "title": "AI Glasses",
+      "company": "VisionAI",
+      "price": 64999,
+      "rating": 4.1,
+      "image": "https://img.etimg.com/thumb/msid-125861676,width-300,height-225,imgsize-16826,resizemode-75/google-says-its-first-gemini-ai-glasses-will-launch-in-2026.jpg",
+        "image": "https://placehold.co/300x300?text=AI+Glasses",
+        "description": "Smart AI powered glasses.",
+      "longDescription": "The future of wearable tech. These glasses display notifications, maps, and translations right before your eyes.",
+      "productDetails": {
+        "brand": "VisionAI",
+        "model": "VAI-Glass-1",
+        "category": "Wearables",
+        "warranty": "1 Year Warranty",
+        "countryOfOrigin": "USA"
+      },
+      "specifications": {
+        "display": "Micro-OLED AR",
+        "processor": "AI Chipset",
+        "batteryLife": "8 Hours",
+        "control": "Voice / Touch",
+        "features": [
+          "Camera",
+          "Speakers",
+          "Microphone"
+        ]
+      }
+    }
+  ]
+}

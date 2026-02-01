@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "name": "mohit",
+      "email": "mohit@gmail.com",
+      "password": "mohit1234",
+      "id": "5943"
+    },
+    {
+      "name": "yash",
+      "email": "yash@gmail.com",
+      "password": "yash1234",
+      "id": "a93d"
+    },
+    {
+      "name": "Rushabh",
+      "email": "rushabh@gmail.com",
+      "password": "rushap1234",
+      "id": "2195"
+    },
+    {
+      "name": "het",
+      "email": "h@gmail.com",
+      "password": "het1234",
+      "id": "b865"
+    },
+    {
+      "id": "8386",
+      "name": "rushabh",
+      "email": "e@gmail.com",
+      "password ": "123456"
+    },
+    {
+      "id": "0525",
+      "name": "eerer",
+      "email": "wq@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "e416",
+      "name": "w",
+      "email": "rrt@gmail.com",
+      "password": "1234567890"
+    },
+    {
+      "id": "1095",
+      "name": "r",
+      "email": "r@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "67cd",
+      "name": "eewwe",
+      "email": "r@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "5a47",
+      "name": "q",
+      "email": "w@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "0b5f",
+      "name": "t",
+      "email": "t@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "12b0",
+      "name": "bapu bhadavo",
+      "email": "b@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "79ca",
+      "name": "abc",
+      "email": "abc@yopmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "c2ce",
+      "name": "ram",
+      "email": "ram@gmail.com",
+      "password": "ram1234"
+    },
+    {
+      "id": "c533",
+      "name": "q",
+      "email": "q@gmail.com",
+      "password": "123456"
+    }
+  ]
+}
