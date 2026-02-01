@@ -21,7 +21,7 @@ import Checkout from "./Checkout";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Tops-project">
     
          <Header/>
         <Routes>
