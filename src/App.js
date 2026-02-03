@@ -20,7 +20,7 @@ import Checkout from "./Checkout";
 
 function App() {
   return (
-    <div className="App">
+    
       <BrowserRouter basename="/Tops-project">
     
          <Header/>
@@ -41,7 +41,7 @@ function App() {
 
         <Footer />
       </BrowserRouter>
-    </div>
+  
   );
 }
 

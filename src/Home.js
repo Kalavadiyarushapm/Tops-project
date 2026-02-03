@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
 import { formatPrice } from "./Product";
  import { addToCart , getCart } from "./cartStorag";
- 
+ import {NikeBanner} from "../public/assets/img/feature-banner1.png";
 function Home() {
   
    
@@ -160,7 +160,7 @@ function Home() {
 
           
           {items.map((item) => (
-            <div className="card-product-card gap-5   mt-4 col-10 m-1 col-md-5 col-lg-3  " key={item.id}>
+            <div className="card-product-card gap-5 text-center mt-4 col-10 m-1 col-md-5 col-lg-3  " key={item.id}>
               <span className="badge">New</span>
               <div className="card-product-image">
                       <Link to={`/datiles/${item.id}`} aria-label={`Open details for ${item.title}`}>
@@ -217,7 +217,7 @@ function Home() {
 
     <div class="home-featured-image">
       <img
-        src="/feature-banner1.png"
+        src={NikeBanner}
         alt="Featured Product"
       />
     </div>
