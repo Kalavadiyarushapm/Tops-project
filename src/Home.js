@@ -4,12 +4,18 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import { Link } from "react-router-dom";
 import { formatPrice } from "./Product";
  import { addToCart , getCart } from "./cartStorag";
- import {NikeBanner} from "../public/assets/img/feature-banner1.png";
-function Home() {
+
+ import nikebanner from "../src/assets/img/feature-banner.png";
+ import banner1 from "../src/assets/img/banner_img_01.jpg"
+ import banner2 from "../src/assets/img/banner_img_02.jpg"
+ import banner3 from "../src/assets/img/banner_img_03.jpg"
+ function Home() {
   
    
   const [items, setitems] = useState([]);
   const [skip, setSkip] = useState(0);
+
+      const homebanners = [banner1, banner2, banner3];  
 
   useEffect(() => {
      const fetchproduct = async () =>{
@@ -92,7 +98,7 @@ function Home() {
           <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to={2} />
         </ol>
         <div className="carousel-inner">
-          {["banner_img_01.jpg","banner_img_02.jpg","banner_img_03.jpg"].map(
+          { homebanners.map(
             (img, index) => (
               <div
                 key={index}
@@ -103,7 +109,7 @@ function Home() {
                     <div className="mx-auto col-md-8 col-lg-6 order-lg-last">
                       <img
                         className="img-fluid"
-                        src={`./assets/img/${img}`}
+                        src={img}
                         alt={`Banner ${index + 1}`}
                       />
                     </div>
@@ -217,7 +223,7 @@ function Home() {
 
     <div class="home-featured-image">
       <img
-        src={NikeBanner}
+    src={nikebanner}
         alt="Featured Product"
       />
     </div>

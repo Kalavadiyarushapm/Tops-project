@@ -1,7 +1,40 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from './Footer'
-
+import  contactdata  from "../json/custmer_contact_data.json"
 function Contact() {
+ 
+  const [name,setname] = useState("")
+  const [email,setemail] = useState("")
+  const [subject,setsubject] = useState("")
+  const [message,setmessage] = useState("")
+  const [contacts,setcontacts] = useState(contactdata)
+
+  const  handleSubmit =  (e) =>{
+    e.preventDefault();
+    if (!name || !email || !subject || !message) {
+      alert("Please fill in all fields.");
+      return;
+
+      const contactEntry = {
+        id : Date.now(),
+        name: name,
+        email: email,
+        subject: subject,
+        message: message
+      }
+
+      setcontacts(prevContacts => [...prevContacts, contactEntry]);
+      alert("Thank you for contacting us!");
+
+      // Clear form fields
+      setname("");
+      setemail("");
+      setsubject("");
+      setmessage("");
+    }
+     
+   
+  }
   return (
     <div>
       
@@ -31,13 +64,13 @@ function Contact() {
         Proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         Lorem ipsum dolor sit amet.
       </p>
-    </div>
-  </div>
+   
   {/* Start Map */}
  <iframe width={600} height={450} style={{border: 0}} loading="lazy" allowFullScreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30262.653615944497!2d72.5713627!3d23.0225054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f27df3f4c3%3A0xdeadbeef12345!2sAhmedabad!5e0!3m2!1sen!2sin!4v1700000000">
 </iframe>
 
-
+ </div>
+  </div>
   {/* Ena Map */}
   {/* Start Contact */}
   <div className="container py-5">
@@ -46,24 +79,24 @@ function Contact() {
         <div className="row">
           <div className="form-group col-md-6 mb-3">
             <label htmlFor="inputname">Name</label>
-            <input type="text" className="form-control mt-1" id="name" name="name" placeholder="Name" />
+            <input type="text" className="form-control mt-1" value={name} onChange={(e) => setname(e.target.value)} placeholder="Name" />
           </div>
           <div className="form-group col-md-6 mb-3">
             <label htmlFor="inputemail">Email</label>
-            <input type="email" className="form-control mt-1" id="email" name="email" placeholder="Email" />
+            <input type="email" className="form-control mt-1" id="email" name="email" value={email} onChange={(e) => setemail(e.target.value)} placeholder="Email" />
           </div>
         </div>
         <div className="mb-3">
           <label htmlFor="inputsubject">Subject</label>
-          <input type="text" className="form-control mt-1" id="subject" name="subject" placeholder="Subject" />
+          <input type="text" className="form-control mt-1" id="subject" name="subject" value={subject} onChange={(e) => setsubject(e.target.value)} placeholder="Subject" />
         </div>
         <div className="mb-3">
           <label htmlFor="inputmessage">Message</label>
-          <textarea className="form-control mt-1" id="message" name="message" placeholder="Message" rows={8} defaultValue={""} />
+          <textarea className="form-control mt-1" id="message" name="message" value={message} onChange={(e) => setmessage(e.target.value)} placeholder="Message" rows={8} defaultValue={""} />
         </div>
         <div className="row">
           <div className="col text-end mt-2">
-            <button type="submit" className="btn btn-success btn-lg px-3">Let’s Talk</button>
+            <button type="submit" onClick={()=>{handleSubmit()}} className="btn btn-success btn-lg px-3">Let’s Talk</button>
           </div>
         </div>
       </form>

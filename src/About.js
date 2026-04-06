@@ -22,7 +22,7 @@ function About() {
           <div className="row d-flex flex-row">
             {/*Controls*/}
             <div className="col-1 align-self-center">
-              <a className="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
+              <a className="h1" href="#" role="button" data-bs-slide="prev">
                 <i className="text-light fas fa-chevron-left" />
               </a>
             </div>

@@ -2,6 +2,11 @@
 import React from "react";
  
 
+
+import visacard from "../src/assets/img/visa.png";
+import mastercard from "../src/assets/img/mastercard.png";
+import paypal from "../src/assets/img//paypal.png";
+
 const Footer = () => {
   return (
     <footer className="zay-footer z-10">
@@ -64,9 +69,9 @@ const Footer = () => {
           </p>
 
           <div className="footer-payments">
-            <img src="/visa.png " alt="visa" />
-            <img src="/mastercard.png" alt="mastercard" />
-            <img src="/paypal.png" alt="paypal" />
+            <img src={visacard} alt="visa" />
+            <img src={mastercard} alt="mastercard" />
+            <img src={paypal} alt="paypal" />
           </div>
         </div>
       </div>

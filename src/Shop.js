@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
+import about_hero from "../src/assets/img/about-hero.svg";
+import fastdelevery from "../src/assets/img/service-delivery.webp";
+import easy_returns from "../src/assets/img/service-returns.jpg";
+import best_deals from "../src/assets/img/service-deals.jpg";
+import service_support from "../src/assets/img/service-support.webp";
 
+ 
+ 
 export default function About() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
@@ -27,105 +34,108 @@ export default function About() {
   return (
     <>
       {/* ================= HERO ================= */}
-      <section className="bg-success py-5">
-        <div className="container">
-          <div className="row align-items-center py-5">
-            <motion.div
-              className="col-lg-6 text-white"
-              variants={fadeUp}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <h1 className="fw-bold">About Us</h1>
-              <p className="opacity-75">
-                We deliver quality products with trust, simplicity, and
-                customer-first thinking at the core of everything we do.
-              </p>
-            </motion.div>
+ 
+<section className="about-hero">
+  <div className="container">
+    <div className="row align-items-center">
+      
+      <div className="col-lg-6">
+        <div className="about-hero-glass">
+          <h1>About Us</h1>
+          <p>
+            We deliver quality products with trust, simplicity,
+            and customer-first thinking at the core of everything we do.
+          </p>
 
-            <motion.div
-              className="col-lg-6 text-center"
-              variants={fadeUp}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              <img
-                src="/assets/img/about-hero.svg"
-                alt="About"
-                className="img-fluid"
-                loading="lazy"
-              />
-            </motion.div>
-          </div>
+          <button className="hero-cta">
+            Explore More
+          </button>
         </div>
-      </section>
+      </div>
+
+      <div className="col-lg-6 text-center">
+        <img
+          src={about_hero}
+          alt="About Hero"
+          className="img-fluid about-hero-img"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
       {/* ================= COMPANY STATS ================= */}
-      <section className="container py-5">
+    <section className="stats-section">
+  <div className="container py-5">
+    <motion.div
+      className="row text-center g-4"
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+    >
+      {[
+        ["10+", "Years Experience"],
+        ["25K+", "Happy Customers"],
+        ["500+", "Products"],
+        ["24/7", "Support"],
+      ].map(([value, label]) => (
         <motion.div
-          className="row text-center g-4"
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
+          key={label}
+          className="col-6 col-md-3"
+          variants={fadeUp}
         >
-          {[
-            ["10+", "Years Experience"],
-            ["25K+", "Happy Customers"],
-            ["500+", "Products"],
-            ["24/7", "Support"],
-          ].map(([value, label]) => (
-            <motion.div
-              key={label}
-              className="col-6 col-md-3"
-              variants={fadeUp}
-            >
-              <h2 className="fw-bold text-success">{value}</h2>
-              <p className="text-muted">{label}</p>
-            </motion.div>
-          ))}
-        </motion.div>
-      </section>
-
-      {/* ================= JOURNEY ================= */}
-      <section className="bg-light py-5">
-        <div className="container">
-          <div className="text-center pb-4">
-            <h2 className="fw-bold">Our Journey</h2>
-            <p className="text-muted">
-              Key milestones that shaped our growth
-            </p>
+          <div className="stats-glass-card">
+            <h2 className="stats-value">{value}</h2>
+            <p className="stats-label">{label}</p>
           </div>
+        </motion.div>
+      ))}
+    </motion.div>
+  </div>
+</section>
 
-          <motion.div
-            className="row g-4"
-            variants={staggerContainer}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-          >
-            {[
-              ["2018", "Founded with a vision for quality ecommerce"],
-              ["2020", "Reached 10,000+ customers"],
-              ["2022", "Expanded nationwide delivery"],
-              ["2024", "Serving global brands & partners"],
-            ].map(([year, text]) => (
-              <motion.div
-                key={year}
-                className="col-md-6 col-lg-3"
-                variants={fadeUp}
-              >
-                <div className="h-100 p-4 bg-white shadow-sm rounded text-center">
-                  <h5 className="text-success fw-bold">{year}</h5>
-                  <p className="text-muted small mb-0">{text}</p>
-                </div>
-              </motion.div>
-            ))}
-          </motion.div>
-        </div>
-      </section>
+
+    {/* ================= JOURNEY ================= */}
+<section className="journey-section">
+  <div className="container py-5">
+    <div className="text-center pb-4">
+      <h2 className="fw-bold">Our Journey</h2>
+      <p className="text-muted">
+        Key milestones that shaped our growth
+      </p>
+    </div>
+
+    <motion.div
+      className="row g-4"
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+    >
+      {[
+        ["2018", "Founded with a vision for quality ecommerce"],
+        ["2020", "Reached 10,000+ customers"],
+        ["2022", "Expanded nationwide delivery"],
+        ["2024", "Serving global brands & partners"],
+      ].map(([year, text]) => (
+        <motion.div
+          key={year}
+          className="col-md-6 col-lg-3"
+          variants={fadeUp}
+        >
+          <div className="journey-glass-card h-100 text-center">
+            <h5 className="journey-year">{year}</h5>
+            <p className="journey-text">{text}</p>
+          </div>
+        </motion.div>
+      ))}
+    </motion.div>
+  </div>
+</section>
+
 
       {/* ================= SERVICES (NO FRAMER MOTION) ================= */}
       <section className="container py-5">
@@ -142,25 +152,25 @@ export default function About() {
               icon: "fa-truck",
               title: "Fast Delivery",
               desc: "Quick and reliable shipping worldwide",
-              bg: "/assets/img/service-delivery.webp",
+              bg: fastdelevery,
             },
             {
               icon: "fa-exchange-alt",
               title: "Easy Returns",
               desc: "Hassle-free returns within 30 days",
-              bg: "/assets/img/service-returns.jpg",
+              bg: easy_returns,
             },
             {
               icon: "fa-percent",
               title: "Best Deals",
               desc: "Exclusive offers and discounts",
-              bg: "/assets/img/service-deals.jpg",
+              bg:best_deals,
             },
             {
               icon: "fa-user-clock",
               title: "24/7 Support",
               desc: "Always here to help you",
-              bg: "/assets/img/service-support.webp",
+              bg: service_support,
             },
           ].map((service, index) => {
 
@@ -214,7 +224,7 @@ export default function About() {
                 className="col-sm-6 col-lg-3"
                 variants={fadeUp}
               >
-                <div className="card border-0 shadow text-center h-100">
+                <div className="card border-0 shadow text-center h-100 align-items-center p-3">
                   <img
                     src={`${img}`}
                     className="team-logo rounded-circle m-3"
